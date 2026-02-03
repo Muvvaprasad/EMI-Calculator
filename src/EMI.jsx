@@ -81,7 +81,7 @@ export function EMI() {
                 </div>
                 <div className="row mt-4">
                     <div className="col-12 col-md-3 col-md-auto">
-                        <button onClick={calculate} className=" btn btn-primary w-100">Calculate</button>
+                        <button onClick={calculate} className=" btn btn-secondary w-100">Calculate</button>
                     </div>
                 </div>
                 {/* <div className={`mt-4 fs-3 text-center ${toggle}`} style={{ background: 'white' }}>
