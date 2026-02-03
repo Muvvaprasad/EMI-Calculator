@@ -84,9 +84,6 @@ export function EMI() {
                         <button onClick={calculate} className=" btn btn-secondary w-100">Calculate</button>
                     </div>
                 </div>
-                {/* <div className={`mt-4 fs-3 text-center ${toggle}`} style={{ background: 'white' }}>
-                    Your monthly installment is <span className=" fw-bold text-success">{emi.toLocaleString('en', { 'style': 'currency', 'currency': 'INR', 'maximumFractionDigits': 0 })}</span> for next {year * 12} months
-                </div> */}
                 <div className={`mt-4 ${toggle}`}>
                     <div className="row text-center fs-4 bg-white p-3 rounded">
 
